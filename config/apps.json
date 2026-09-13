@@ -1,0 +1,7 @@
+{
+  "_komentar": "Custom path aplikasi. Kosongkan ('') agar otomatis terdeteksi via lokasi umum Windows / PATH. Contoh terisi: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'. HANYA kunci di bawah yang dibaca; voice TIDAK PERNAH bisa menambah/menjalankan path lain.",
+  "chrome": "",
+  "vscode": "",
+  "whatsapp": "",
+  "powerpoint": ""
+}

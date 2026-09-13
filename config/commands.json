@@ -1,0 +1,8 @@
+{
+  "_komentar": "Custom workflow: frasa (lowercase) -> daftar langkah. Langkah boleh berupa KUNCI aksi whitelist (mis. 'open_vscode') atau aksi 'open:...' (mis. 'open:vs_code'). Kunci asing diabaikan otomatis — voice TIDAK PERNAH bisa menjalankan perintah arbitrer.",
+  "mode coding": ["open:vs_code", "open:chrome", "open:project_folder"],
+  "mode kerja": ["open:chrome", "open:email", "open:vs_code"],
+  "buka coding": ["open_vscode", "open_project", "open_chrome"],
+  "buka kerja": ["open_chrome", "open_vscode", "open_downloads"],
+  "mode santai": ["open_youtube", "volume_up"]
+}

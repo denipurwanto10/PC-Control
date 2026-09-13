@@ -1,0 +1,30 @@
+# Dependensi Computer Controller — Hand + Voice (Windows, Python 3.13, 64-bit)
+# PENTING: gunakan mediapipe 1.x (Tasks API / HandLandmarker).
+# Versi 0.10.x TIDAK menyediakan wheel Windows untuk Python 3.13.
+opencv-python>=4.8.0
+mediapipe>=1.0.0
+pyautogui>=0.9.54
+numpy>=1.26.0
+# Voice command (Google Speech Recognition, butuh internet + mic).
+# Backend mic berlapis (otomatis): PyAudio bila ada, jika tidak memakai
+# sounddevice+soundfile TANPA perlu PyAudio. PyAudio 0.2.14 TIDAK punya
+# wheel resmi untuk Python 3.13, jadi JANGAN jadikan dependensi wajib —
+# aplikasi sudah jalan penuh dengan sounddevice.
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+# GUI memakai tkinter (bawaan Python Windows) + Pillow untuk render video.
+Pillow>=10.0.0
+# Window management & clipboard (sudah stabil di Python 3.13 Windows).
+pygetwindow>=0.0.9
+pyperclip>=1.8.0
+# Opsional: screen recording (fitur "mulai recording"; tanpa ini recording
+# dinonaktifkan otomatis dengan pesan ramah, aplikasi tetap jalan).
+# mss>=9.0.0
+# Telegram Remote Controller (§Telegram): bot API + .env + status sistem.
+# seating: python-telegram-bot dipakai otomatis bila terinstal (engine
+# utama), jika tidak controller memakai engine HTTP stdlib bawaan
+# (tanpa dependensi tambahan) sehingga aplikasi tetap jalan.
+python-telegram-bot>=21.0
+python-dotenv>=1.0.0
+psutil>=5.9.0

@@ -1,0 +1,13 @@
+.venv/
+.tmp/
+.shim/
+__pycache__/
+*.pyc
+dirA700/
+# Secrets & runtime lokal (Telegram): JANGAN commit .env berisi token.
+.env
+.pip-tmp/
+data/
+.pip-tmp/
+readme_tail.txt
+anchor_dump*.txt

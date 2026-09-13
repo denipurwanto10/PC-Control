@@ -1,0 +1,7 @@
+{
+  "_komentar": "Custom Telegram command: /nama -> frasa voice yang diteruskan ke Command Processor (dinormalisasi otomatis, jadi 'mode_coding' sama dengan 'mode coding'). HANYA kunci di bawah + daftar bawaan yang diterima; pesan lain di luar whitelist ditolak dan TIDAK PERNAH dieksekusi.",
+  "coding": "mode coding",
+  "kerja": "mode kerja",
+  "presentasi": "mode presentasi siap",
+  "santai": "mode santai"
+}
