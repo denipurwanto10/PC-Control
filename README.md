@@ -3,7 +3,7 @@
 Aplikasi desktop Python (Windows) untuk mengendalikan komputer memakai
 **gerakan tangan** (webcam), **perintah suara** (microphone), **keyboard**,
 dan **workflow automation** — terintegrasi dalam satu aplikasi ringan.
-
+ 
 > ✅ **Status lingkungan ini: TERINSTAL & SIAP JALAN.**
 > Virtualenv `.venv` (Python 3.13) berisi `numpy`, `opencv-python`,
 > `mediapipe 1.x`, `pyautogui`, `SpeechRecognition`, `sounddevice`,
